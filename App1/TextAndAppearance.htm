@@ -1,0 +1,40 @@
+﻿<!--<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">-->
+<!DOCTYPE >
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script src="Scripts/jquery-1.4.1.min.js" type="text/javascript"></script>
+    <script src = "https://ajax.aspnetcdn.com/ajax/knockout/knockout-3.1.0.js" type = "text/javascript"></script>        
+    <script src = "https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" type = "text/javascript"></script>            
+    <link  href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" type="text/css"/>
+    <style type="text/css">
+        .redColor
+        {
+            background-color:Red;width:100%;
+            height:25px;
+        }
+        .greenColor
+        {
+            background-color:Green;width:100%;
+            height:25px;
+        }
+    </style>
+</head>
+<body>
+    <h2> Text and Apppearance </h2>
+    <div style="text-align:center;">
+        
+        <input id="inputRange" type="range" min="1" max="100" data-bind="value: Number,fontSize: Number" style="width:500px;" />
+        <br />
+        <span data-bind="text: Number" >1</span>&nbsp; <span data-bind="text: isEvenNumber" >1</span>
+        <span data-bind="text: divcolor"></span>
+
+        <!--<div style="height:250px;" data-bind="style :{visible:visibility,backgroundColor:divcolor}"> Text </div>-->
+        <div style="height:250px;" data-bind="css :{visible:visibility,redColor:!isEvenNumber(),greenColor:isEvenNumber()}"> Text </div>
+    <div>
+    <script src="Scripts/TextAndAppearanceModel.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        
+    </script>
+</body>
+</html>

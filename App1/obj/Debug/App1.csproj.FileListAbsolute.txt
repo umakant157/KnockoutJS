@@ -1,0 +1,4 @@
+D:\Test Projects\Knowckout\App1\App1\bin\App1.dll
+D:\Test Projects\Knowckout\App1\App1\bin\App1.pdb
+D:\Test Projects\Knowckout\App1\App1\obj\Debug\App1.dll
+D:\Test Projects\Knowckout\App1\App1\obj\Debug\App1.pdb
