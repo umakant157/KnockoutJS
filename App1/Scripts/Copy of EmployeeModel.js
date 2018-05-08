@@ -11,8 +11,9 @@ function employeesViewModel() {
     var emp1 = new employeeModel('UK', 'Verma', 'uk@gmail.com', 1000, ["Proj-01", "Proj-03", "Proj-09", ])
     var emp2 = new employeeModel('Sandeep', 'Yadav', 'sandeep@gmail.com', 2000, ["Proj-07", "Proj-01", "Proj-06", ])
     var emp3 = new employeeModel('Satvir', 'Pahva', 'satvir@gmail.com', 3000, ["Proj-02", "Proj-05", "Proj-08", ])
+    var emp4 = new employeeModel('Aman', 'Gupta', 'aman@gmail.com', 2500, ["Proj-07", "Proj-02", "Proj-06", ])
 
-    this.employees = ko.observableArray([emp1, emp2, emp3]);
+    this.employees = ko.observableArray([emp1, emp2, emp3, emp3]);
     this.totalEmployees = ko.computed(function () {
         return this.employees().length;
     }, this)

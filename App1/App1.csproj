@@ -56,8 +56,12 @@
     <Content Include="Account\ChangePasswordSuccess.aspx" />
     <Content Include="Account\Login.aspx" />
     <Content Include="Account\Register.aspx" />
+    <Content Include="Events1.aspx" />
+    <Content Include="Events.aspx" />
     <Content Include="EmployeeList.aspx" />
-    <Content Include="Scripts\EmployeeModel.js" />
+    <Content Include="Scripts\Copy of EmployeeModel.js" />
+    <Content Include="Scripts\Events1.js" />
+    <Content Include="Scripts\Events.js" />
     <Content Include="TextAndAppearance.aspx" />
     <Content Include="Scripts\knockout-3.4.2.js" />
     <Content Include="Scripts\MyModel.js" />
@@ -111,6 +115,20 @@
     <Compile Include="Account\Register.aspx.designer.cs">
       <DependentUpon>Register.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Events1.aspx.cs">
+      <DependentUpon>Events1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Events1.aspx.designer.cs">
+      <DependentUpon>Events1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Events.aspx.cs">
+      <DependentUpon>Events.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Events.aspx.designer.cs">
+      <DependentUpon>Events.aspx</DependentUpon>
+    </Compile>
     <Compile Include="EmployeeList.aspx.cs">
       <DependentUpon>EmployeeList.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -159,7 +177,7 @@
         <WebProjectProperties>
           <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>49459</DevelopmentServerPort>
+          <DevelopmentServerPort>60045</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>
           </IISUrl>
